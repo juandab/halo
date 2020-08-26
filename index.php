@@ -1,6 +1,8 @@
 <?php
 include_once './plantillas/header.inc.php';
-
+	$a = 32;
+	$a += 3;
+	echo $a;
 ?>
  	<section class="list">
  		<div class="discord">
