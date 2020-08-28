@@ -28,6 +28,9 @@ header nav ul li a {
 	text-decoration: none;
 	text-align: center;
 }
+header nav ul li a:hover {
+	color: rgb(34, 126, 126);
+}
 
 .linea {
 	position: absolute;
@@ -111,15 +114,28 @@ header nav ul li a {
 /* Estilos de info */
 
 .pasos {
-	padding-top: 50px;;
+	padding-top: 50px;
 	background-color:#fff;
 	text-align: center;
 	color: #000;
+	padding-bottom: 30px;
+}
+.pasos ul {
+	margin: 20px 60px 0px 60px;
+	padding-bottom: 50px;
+	background-color: rgb(35, 88, 185);
+	border:3px solid #000;
 }
 .pasos ul li{
+	list-style: none;
 	margin-top: 30px;
 }
+.pasos p {
+	font-weight: bold;
+	color: #fff;
+}
 .pasos a {
+	font-weight: bold;
 	padding:15px;
 	text-decoration: none;
 	color: #fff;
@@ -128,8 +144,7 @@ header nav ul li a {
 }
 
 .pasos a:hover {
-
-	box-shadow: 1px 5px  #1499F8;
+	color:#1499F8;
 }
 
 footer  {
